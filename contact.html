@@ -6,6 +6,7 @@
   </head>
 
   <body>
+    <!-- This is the header nav bar -->
     <header>
       <section>
         <div class="header">
@@ -13,33 +14,36 @@
             <h1>Jiliene Circelli</h1>
           </div>
           <nav class="header-links">
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <a href="index.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="contact.html">Contact</a> |
           </nav>
         </div>
       </section>
     </header>
+    <!-- This is the content section -->
     <section>
       <div class="content">
+        <form class="contact-me">
+          Name:
+          <br />
+          <input class="contact" type="name" />
+          <br />
+          Email:
+          <br />
+          <input class="contact" type="email" />
+          <br />
+          Message:
+          <br />
+          <input class="message" type="text" />
+          <br />
 
-          <form action="assets/form-data/" method="POST">
-            <div>
-              <label for="name">Name:</label><br />
-              <input type="text" id="name" name="user_name" />
-            </div>
-            <div>
-              <label for="mail">E-mail:</label><br />
-              <input type="email" id="mail" name="user_mail" />
-            </div>
-            <div>
-              <label for="msg">Message:</label><br />
-              <textarea id="msg" name="user_message"></textarea>
-            </div>
-          </form>
-    
+          <input type="submit" value="Send" />
+        </form>
       </div>
     </section>
+
+    <!-- This is the footer section -->
     <section>
       <footer>
         <div class="footer">&copy; Jiliene Circelli 2019</div>
