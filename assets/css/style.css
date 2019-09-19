@@ -3,18 +3,27 @@ body {
   margin: 0;
   background: url(../images/prism.png);
 }
+/* Heading Tags */
 
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ffffff;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  color: #4aaaa5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* index.html specific */
 .name {
   height: auto;
   width: 200px;
   background-color: #4aaaa5;
   padding: 5px;
   justify-content: center;
-}
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: #ffffff;
-  text-align: center;
 }
 
 .headshot {
@@ -28,7 +37,6 @@ h1 {
   width: 100%;
   height: 20%;
   background-color: #ffffff;
-  margin: 10px;
   padding: 10px;
   border: #cccccc;
   display: flex;
@@ -40,7 +48,7 @@ h1 {
   padding: 10px;
   align-self: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .footer {
@@ -56,12 +64,13 @@ h1 {
 }
 
 .content {
-  width: 960px;
-  height: 50%;
+  width: 70%;
+  height: 75%;
   background-color: #ffffff;
   position: relative;
   top: 10px;
   margin: 0 auto;
+  padding: 15px 30px;
 }
 
 nav {
@@ -69,22 +78,25 @@ nav {
 }
 
 .description-text {
-    padding: 10px;
-    margin: 0;
-    text-align: left;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .about-me {
-    border-bottom: 2px solid lightgray;
-    padding: 10px;
-
+  border-bottom: 2px solid lightgray;
+  padding: 20px;
 }
 
-h2 {
-    margin: 0;
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/* Form */
+.contact {
+  width: 100%;
+  height: 20px;
+}
 
+.message {
+  width: 100%;
+  height: 80px;
 }
