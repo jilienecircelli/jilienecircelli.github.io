@@ -3,6 +3,13 @@ body {
   margin: 0;
   background: url(../images/prism.png);
 }
+
+.top-bar {
+  padding-right: 125px;
+  padding-left: 125px;
+  background-color: white;
+}
+
 /* Heading Tags */
 
 h1 {
@@ -85,7 +92,7 @@ nav {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.about-me {
+.content-header {
   border-bottom: 2px solid lightgray;
   padding: 20px;
 }
